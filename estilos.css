@@ -225,6 +225,7 @@ div.comuna {
     height: 1800px;
     display: flex;
     flex-flow: row wrap;
+     border-bottom: none;
 }
 
 img.imagenComunidad {
@@ -341,4 +342,18 @@ div.formulario .elemento input[type="button"] {
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
+}
+
+div.footer {
+    background-color: white;
+    /* border: 5px solid black; */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.footer p{
+    font-size: 25px;
 }
