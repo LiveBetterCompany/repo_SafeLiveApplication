@@ -1,0 +1,52 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Andy Johan",
+      "paterno": "Munico",
+      "materno": "Soto",
+      "email": "andy@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "nombre": "Miguel",
+      "paterno": "Sucso",
+      "materno": "Herrara",
+      "email": "Miguel@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "nombre": "Eduardo",
+      "paterno": "Oroz",
+      "materno": "chauca",
+      "email": "eduardo@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 4,
+      "nombre": "Diego",
+      "paterno": "Dario",
+      "materno": "Sanchez",
+      "email": "diego@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "nombre": "jenny",
+      "paterno": "soto",
+      "materno": "escobar",
+      "email": "jenny@hotmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "nombre": "pilar",
+      "paterno": "chancasana",
+      "materno": "lopes",
+      "email": "pilar@hotmail.com",
+      "password": "1234",
+      "id": 6
+    }
+  ]
+}
