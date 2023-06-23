@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,124 +8,49 @@
     <link rel="icon" href="imagenes/logo/safeIcon.ico" type="image/ico">
     <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    
-    <header>
-        <div class="background">
 
-            <div class="logo">
-                <img class="logo nav" src="imagenes/logo/safelive.png" alt="Logo">
-                <h1>safe live</h1>
-            </div>
+    <main class="main form login">
+        <h2 class="titleForm">SAFE LIVE</h2>
+        <div class="formulario login" id="formulario">
+            <form id="formLogin">
 
-            <div class="navImagen">
-                
-
-
-                <div class="home div">
-                    <a href="index.html">
-                        <img class="home nav" src="imagenes/nav/home.png" alt="Mi imagen">
-                    </a>
-                </div>
-
-                <div class="perfil div">
-                    <a href="perfil.html">
-                        <img class="perfil nav" src="imagenes/nav/perfil.png" alt="Mi imagen">
-                    </a>
-                    
+                <div class="elemento">
+                    <label for="email">Correo electronico: </label>
+                    <input type="email" id="email" name="email" required="true"><br>
 
                 </div>
-    
-                 <div class="notificacion div">
-
-                    <a href="notificacion.html">
-                        <img class="notificacion nav" src="imagenes/nav/iconNoti.png" alt="Mi imagen">
-                    </a>
-                        
-                </div>
-   
-                <div class="receta div">
-
-                    <a href="receta.html">
-                        <img class="receta nav" src="imagenes/nav/libro-de-recetas.png" alt="Mi imagen">
-                    </a>
+                <div class="elemento">
+                    <label for="password">Contraseña: </label>
+                    <input type="password" id="password" name="password" required="true"><br>
 
                 </div>
-
-                <div class="ejercicio div">
-                    <a href="ejercicio.html">
-                        <img class="ejercicio nav" src="imagenes/nav/ejercicio.png" alt="Mi imagen">
-                    </a>
+                <div class="elemento">
+                    <!-- <input type="submit" value="Iniciar Sesion" /> -->
+                    <input type="button" value="Iniciar Sesio" onclick="validateCredentials()"/>
+                    <!-- onclick="validateCredentials()" -->
+ 
                 </div>
 
-            </div>
+                <div class="elemento">
 
-        </div>
-    </header>
+                    <input type="button" value="Registrarse" formnovalidate="formnovalidate" onclick="registro()" />
 
-    <main class="mainComunidad">
-        
-        <div class="comunidad">
-
-            <h2 class="tituloComunidad">Comunidad</h2>
-            
-            <div class="comuna">
-
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Rosa Peralta</h3>
-                    <h3 class="descripcion" >Receta para los calculos</h3>
-                    <img class="imagenComunidad" src="imagenes/comunidad/calculos.jpg" alt="">
-                </div>
-
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Jose Tolentino</h3>
-                    <h3 class="descripcion" >Comida para ganar masa muscular</h3>
-                    <img class="imagenComunidad" src="imagenes/comunidad/masaMuscular.jpg" alt=""> 
-                </div>
-    
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Miguel Sucso</h3>
-                    <h3 class="descripcion" >Como perder peso</h3>
-                    <img class="imagenComunidad"  height="180" width="250" src="imagenes/comunidad/perderPeso.jpg" alt="">
-                </div>
-
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Eduardo Oros</h3>
-                    <h3 class="descripcion" >Jugitos para las mañanas</h3>
-                    <img class="imagenComunidad" src="imagenes/comunidad/jugos.jpg" width="250px" height="180px" alt="">
-                </div>
-    
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Pedro Diezcanseco</h3>
-                    <h3 class="descripcion" >Preparando chia</h3>
-                    <img class="imagenComunidad" src="imagenes/comunidad/chia.jpg" alt="">
-                </div>
-
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Severino</h3>
-                    <h3 class="descripcion" >Tarantula frita</h3>
-                    <img class="imagenComunidad" src="imagenes/comunidad/tarantula.jpg" alt="">
-                </div>
-
-                <div class="publicacion">
-                    <h3 class="titleComunidad">Gloria Soto</h3>
-                    <h3 class="descripcion" >Brochet de suri</h3>
-                    <img class="imagenComunidad" src="imagenes/comunidad/suri.jpg" alt="">
 
                 </div>
-
-
-            </div>
+            </form>
 
 
         </div>
 
     </main>
-     <footer>
-        <div class="footer">
-            <p>Derechos de autor &copy; 2023 Live Better Company</p>
-        </div>
-    </footer>
-
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/funciones.js"></script>
 </body>
+<footer>
+    <div class="footer">
+        <p>Derechos de autor &copy; 2023 Live Better Company</p>
+    </div>
+</footer>
 </html>
