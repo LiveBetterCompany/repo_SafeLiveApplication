@@ -64,12 +64,46 @@
 
     <main class="mainComunidad">
         
+        <!-- <div class="publicacion-list" id="publicacionList">
+
+        </div> -->
+
+
         <div class="comunidad">
 
             <h2 class="tituloComunidad">Comunidad</h2>
-            
-            <div class="comuna">
 
+            <div  class="publicar">
+                <form id="publicacionForm">
+
+                    <div class="elementoP">
+
+                        <label for="tituloPublicar">Nombre: </label><br>
+                        <input type="text" id="tituloPublicar" name="tituloPublicar" required="true"> <br>
+    
+                    </div>
+
+                    <div class="elementoP">
+
+                        <label for="description">descripcion: </label><br>
+                        <input type="text" id="description" name="description" required="true"> <br>
+    
+                    </div>
+
+                    <div class="elementoP">
+
+                        <label for="foto">Foto: </label><br>
+                        <input type="text" id="foto" name="foto" required="false"> <br>
+    
+                    </div>
+
+                    <input class="pub" type="submit" value="Publicar" />
+                      
+                </form>
+            </div>
+            
+            <div class="comuna publicacion-list"  id="publicacionList">
+<!-- 
                 <div class="publicacion">
                     <h3 class="titleComunidad">Rosa Peralta</h3>
                     <h3 class="descripcion" >Receta para los calculos</h3>
@@ -111,20 +145,27 @@
                     <h3 class="descripcion" >Brochet de suri</h3>
                     <img class="imagenComunidad" src="imagenes/comunidad/suri.jpg" alt="">
 
-                </div>
+                </div> -->
 
+                <!-- <div  class="publicacion-list" id="publicacionList">
+
+                </div> -->
 
             </div>
 
+            
 
         </div>
 
+        
+        
+
     </main>
-     <footer>
+    <footer>
         <div class="footer">
             <p>Derechos de autor &copy; 2023 Live Better Company</p>
         </div>
     </footer>
-
+    <script src="js/script2.js"></script>
 </body>
 </html>
