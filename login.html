@@ -14,7 +14,7 @@
     <main class="main form login">
         <h2 class="titleForm">SAFE LIVE</h2>
         <div class="formulario login" id="formulario">
-            <form action="">
+            <form id="formLogin">
 
                 <div class="elemento">
                     <label for="email">Correo electronico: </label>
@@ -27,7 +27,10 @@
 
                 </div>
                 <div class="elemento">
-                    <input type="button" value="Iniciar Sesion" onclick="login()"/>
+                    <!-- <input type="submit" value="Iniciar Sesion" /> -->
+                    <input type="button" value="Iniciar Sesio" onclick="validateCredentials()"/>
+                    <!-- onclick="validateCredentials()" -->
+ 
                 </div>
 
                 <div class="elemento">
@@ -42,12 +45,12 @@
         </div>
 
     </main>
-     <footer>
-        <div class="footer">
-            <p>Derechos de autor &copy; 2023 Live Better Company</p>
-        </div>
-    </footer>
+    <!-- <script src="js/script.js"></script> -->
     <script src="js/funciones.js"></script>
 </body>
-
+<footer>
+    <div class="footer">
+        <p>Derechos de autor &copy; 2023 Live Better Company</p>
+    </div>
+</footer>
 </html>
